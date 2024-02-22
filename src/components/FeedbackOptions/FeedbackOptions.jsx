@@ -1,6 +1,6 @@
 import style from './FeedbackOptions.module.css';
 
-export const FeedbackOptions = ({ options, onLeaveFeedback, children }) => {
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <>
       {options.map(item => (
